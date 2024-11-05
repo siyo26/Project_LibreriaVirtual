@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #006bff;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 100px;
+    height: 70px;
+    border: 2px solid whitesmoke ;
+    border-radius: 20px;
+}
+h1 {
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: ;
+}
+
