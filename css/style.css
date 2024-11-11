@@ -53,15 +53,15 @@ section {
 }
 
 footer {
-    height: 150px;
+    height: 100px;
     background-color: #2C3E50;
     color: whitesmoke;
     display: flex;
     justify-content: space-around;
-    align-items:first baseline;
+    align-items:first flex-end;
 }
 
 footer img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
