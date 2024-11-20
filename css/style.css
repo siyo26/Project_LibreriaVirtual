@@ -48,6 +48,26 @@ main {
     background-color: #8DAA91;
 }
 
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* justify-content: center;
+    flex-wrap: wrap; */
+    gap: 16px;
+}
+
+.card {
+    width: 60%;
+    border: solid 2px  #617563;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card img {
+    height: 250px;
+    border-radius: 20px;
+}
 section {
     background-color: #F2E9E4;
 }
