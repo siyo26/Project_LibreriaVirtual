@@ -142,7 +142,7 @@ footer {
     color: whitesmoke;
     display: flex;
     justify-content: space-around;
-    align-items:first flex-end;
+    align-items: flex-end;
     padding: 15px;
 }
 
@@ -197,4 +197,64 @@ p {
 span {
     display: block;
     padding: 20px;
+}
+
+@media (max-width:320px) {
+    h1 {
+        font-size: 25px;
+    }
+    nav {
+        height: 100px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #Contacto {
+        flex-direction: column;
+    }
+    #formulario {
+        width: 100%;
+
+    }
+    #Ubicacion {
+        display: none;
+    }
+
+    #boton {
+        display:block;
+    }
+
+    footer {
+        font-size: 10px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:720px){
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #Contacto {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #formulario {
+        width: 100%;
+
+    }
+    #Ubicacion {
+        width: 100%;
+    }
+    #Ubicacion iframe {
+        width: 100%;
+    }
+    #boton {
+        display:block;
+    }
 }
