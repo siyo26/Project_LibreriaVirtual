@@ -1,9 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Orbitron", sans-serif;
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+}
 
 header {
     background-color: #F2E9E4;
@@ -29,12 +40,13 @@ nav {
 }
 
 nav ul{
-    width: 300px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
 }
 nav ul li {
-    width: 100px;
+    font-family: "Rajdhani", sans-serif;
+    width: 125px;
     display: inline-block;
     border: solid 4px #0000cd ;
     border-radius: 20px;
@@ -48,40 +60,141 @@ main {
     background-color: #8DAA91;
 }
 
-.contenedor {
+h2 {
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#contenedor_catalogo {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    /* justify-content: center;
-    flex-wrap: wrap; */
-    gap: 16px;
+    justify-items: center;
+    align-content: center;
+    gap: 0px;
 }
 
 .card {
     width: 60%;
-    border: solid 2px  #617563;
+    padding: 10px;
     border-radius: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .card img {
     height: 250px;
     border-radius: 20px;
 }
-section {
+
+.card h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+.card button {
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #2C3E50;
+    color: whitesmoke;
+
+}
+#libroMes {
     background-color: #F2E9E4;
+
+}
+
+#contenedor_libroMes {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#libro {
+    border-radius: 20px;
+    box-shadow: 5px -5px 5px;
+    text-align: center;
+} 
+
+#libro img {
+    height: 250px;
+    border-radius: 20px;
+
+}
+
+#libro button {
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #2C3E50;
+    color: whitesmoke;
+}
+#video {
+    align-items: center;
+
 }
 
 footer {
-    height: 100px;
+    font-family: "Rajdhani", sans-serif;
+    height: 130px;
     background-color: #2C3E50;
     color: whitesmoke;
     display: flex;
     justify-content: space-around;
     align-items:first flex-end;
+    padding: 15px;
 }
 
 footer img {
     width: 30px;
     height: 30px;
+}
+
+fieldset {
+    width: 35%;
+    border: 2px solid #141516; 
+    padding: 20px;              
+    border-radius: 8px;   
+}
+
+form {
+    text-align: start;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    display: block;
+    justify-items: center;
+}
+
+#boton {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family:"poppins", sans-serif;
+    justify-content: center;
+    line-height: 17.94px;
+}
+
+span {
+    display: block;
+    padding: 20px;
 }

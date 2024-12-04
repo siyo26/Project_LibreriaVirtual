@@ -20,45 +20,103 @@
         <Nav>    
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <!-- <li><a href="Quienes.html">Quienes Somos</a></li> -->
-                <li><a href="Productos.html">Productos</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="html/Quienes_Somos.html">Quienes Somos</a></li>
+                <li><a href="html/Contacto.html">Contacto</a></li>
             </ul>
         </Nav>
 
         <main>
             <h2>Catalogo</h2>
-            <div class="contenedor">
+            <section id="contenedor_catalogo">
                 <div class="card">
-                    <img src="img/329393_portada_trilogia-de-sprawl-n-0103-neuromante_william-gibson_202012031221.jpg" alt="Neuromante - William Gibson">
+                    <img src="img/Portadas/329393_portada_trilogia-de-sprawl-n-0103-neuromante_william-gibson_202012031221.jpg" alt="Neuromante - William Gibson">
                     <h3>Neuromante</h3>
-                    <button>Comprar</button>
+                    <button>+ Info</button>
                 </div>
 
                 <div class="card">
-                    <img src="img/329393_portada_trilogia-de-sprawl-n-0103-neuromante_william-gibson_202012031221.jpg" alt="Neuromante - William Gibson">
-                    <h3>Neuromante</h3>
-                    <button>Comprar</button>
+                    <img src="img/Portadas/347332_portada_conde-cero-n-0203-trilogia-de-sprawl_william-gibson_202112291603.jpg" alt="Conde Cero - William Gibson">
+                    <h3>Conde Cero</h3>
+                    <button>+ Info</button>
                 </div>
 
                 <div class="card">
-                    <img src="img/329393_portada_trilogia-de-sprawl-n-0103-neuromante_william-gibson_202012031221.jpg" alt="Neuromante - William Gibson">
-                    <h3>Neuromante</h3>
-                    <button>Comprar</button>
+                    <img src="img/Portadas/354002_portada_mona-lisa-acelerada-n-0303-trilogia-de-sprawl_william-gibson_202204251252.jpg" alt="Mona Lisa acelerada - William Gibson">
+                    <h3>Mona Lisa Acelerada</h3>
+                    <button>+ Info</button>
                 </div>
 
                 <div class="card">
-                    <img src="img/329393_portada_trilogia-de-sprawl-n-0103-neuromante_william-gibson_202012031221.jpg" alt="Neuromante - William Gibson">
-                    <h3>Neuromante</h3>
-                    <button>Comprar</button>
+                    <img src="img/Portadas/395654_portada_1984_george-orwell_202402291343.jpg" alt="1984 - Geroge Orwell">
+                    <h3>1984</h3>
+                    <button>+ Info</button>
                 </div>
-        </div>
+
+                <div class="card">
+                    <img src="img/Portadas/portada_buenos-presagios_terry-pratchett_202310251212.jpg" alt="Buenos Presagios - Terry Pratchet y Neil Gaiman">
+                    <h3>Buenos Presagios</h3>
+                    <button>+ Info</button>
+                </div>
+
+                <div class="card">
+                    <img src="img/Portadas/portada_cronicas-marcianas_ray-bradbury_201911251055.jpg" alt="Cronicas Maarcianas - Ray Bradbury">
+                    <h3>Cronicas Maarcianas</h3>
+                    <button>+ Info</button>
+                </div>
+
+                <div class="card">
+                    <img src="img/Portadas/portada_fahrenheit-451_ray-bradbury_201910221243.jpg" alt="Fahrenheit 451 - Ray Bradbury">
+                    <h3>Fahrenheit 451</h3>
+                    <button>+ Info</button>
+                </div>
+
+                <div class="card">
+                    <img src="img/Portadas/portada_ubik__202003051124.webp" alt="Ubik - Philip K Dick">
+                    <h3>Ubik</h3>
+                    <button>+ Info</button>
+                </div>
+
+                <div class="card">
+                    <img src="img/Portadas/portada_el-hombre-en-el-castillo_philip-k-dick_202207081144.jpg" alt="El Hombre en el Castillo - Philip K Dick">
+                    <h3>El Hombre en el Castillo</h3>
+                    <button>+ Info</button>
+                </div>
+                
+                <div class="card">
+                    <img src="img/Portadas/portada_los-jugadores-de-titan_philip-k-dick_202210041129.jpg" alt="Los Jugadores de Titan - Philip K Dick">
+                    <h3>Los Jugadores de Titan</h3>
+                    <button>+ Info</button>
+                </div>
+
+                <div class="card">
+                    <img src="img/Portadas/portada_el-nombre-del-mundo-es-bosque_ursula-k-le-guin_202310231048.jpg" alt="El nombre del mundo es Bosque - Ursula K Le Guin">
+                    <h3>El nombre del mundo es Bosque</h3>
+                    <button>+ Info</button>
+                </div>
+
+                <div class="card">
+                    <img src="img/Portadas/portada_la-mano-izquierda-de-la-oscuridad_ursula-k-le-guin_202105191126.jpg" alt="La mano izquierda de la oscuridad - Ursula K Le Guin">
+                    <h3>El Hombre en el Castillo</h3>
+                    <button>+ Info</button>
+                </div>
+
+            </section>
         </main>
 
-        <section>
-            <h2><b>Nuestro libro del Mes</b></h2> <br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zpn6MCmoK0g?si=hjxJInzuSRa_6QTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <section id="libroMes">
+            <h2><b>Nuestro libro del Mes</b></h2>
+            <section id="contenedor_libroMes">
+                <div id="libro">
+                    <img src="img/Portadas/Portada_aqui_estamos_Oliver_Jeffers.jpg" alt="Aqui Estamos de Oliver Jeffers">
+                    <h3>Aqui Estamos</h3>
+                    <button>+ Info</button>
+                </div>
+                <div id="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zpn6MCmoK0g?si=hjxJInzuSRa_6QTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
         </section>
+
 
         <footer>
             <div>
@@ -70,10 +128,10 @@
             
             <div>
                 <h3>Redes Sociales</h3>
-                <img src="img/IG.png" alt="Logo Instragram" width="20"> 
-                <img src="img/WhatsApp.png" alt="Logo WhatsApp" width="20"> 
-                <img src="img/Facebook.png" alt="Logo Facebook" width="20"> 
-                <img src="img/Correo.png" alt="logo email" width="20"> 
+                <img src="img/Iconos/IG.png" alt="Logo Instragram" width="20"> 
+                <img src="img/Iconos/WhatsApp.png" alt="Logo WhatsApp" width="20"> 
+                <img src="img/Iconos/Facebook.png" alt="Logo Facebook" width="20"> 
+                <img src="img/Iconos/Correo.png" alt="logo email" width="20"> 
             </div>
             <div>
                 <h3>Nos encontras:</h3>
