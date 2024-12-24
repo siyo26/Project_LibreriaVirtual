@@ -5,7 +5,7 @@ console.log(contenedor_catalogo)
 
 
 
-fetch("catalogo.json")
+fetch("js/catalogo.json")
 .then((respuesta)=>respuesta.json())
 .then((datos)=>{
     console.log(datos)
@@ -20,6 +20,7 @@ fetch("catalogo.json")
         ContenedorCreado.innerHTML=`   
             <img src="${element.cover}">        
             <h4>${element.titulo}</h4> 
+            <button>+ Info</button>
         `
         ;
         contenedor_catalogo.append(ContenedorCreado)

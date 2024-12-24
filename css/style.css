@@ -40,7 +40,7 @@ nav {
 }
 
 nav ul{
-    width: 400px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
 }
@@ -87,7 +87,7 @@ h2 {
     border-radius: 20px;
 }
 
-.card h3 {
+.card h4 {
     font-family: "Poppins", sans-serif;
 }
 
